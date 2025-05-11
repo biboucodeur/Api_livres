@@ -1,9 +1,6 @@
-# 📚 Gestion simplifiée d'une bibliothèque
+# Gestion simplifiée d'une bibliothèque
 
 ## 🧑‍💻 Projet d’examen – Langages & Frameworks Backend 1
-
-> Étudiant : Coumba Sabaly
-> Université Numérique Cheikh Hamidou Kane (UNCHK)
 
 ---
 
@@ -40,7 +37,7 @@ src/main/java/com/bibliotheque/gestion/
 ├── service/
 │   ├── AuteurService.java
 │   └── LivreService.java
-└── SenlivreApplication.java
+└── GestionApplication.java
 
 src/main/resources/
 └── application.properties
@@ -50,7 +47,13 @@ src/main/resources/
 
 ## 🚀 Lancer le projet
 
-1. Cloner ou extraire le ZIP du projet
+1. **Cloner ou extraire** le projet :
+
+   ```bash
+   git clone https://github.com/biboucodeur/Api_livres.git
+
+   ```
+
 2. Ouvrir dans un IDE (IntelliJ, Eclipse, Vscode etc.)
 3. Lancer `GestionApplication.java`
 4. Accéder à :
