@@ -28,7 +28,6 @@ public class Livre {
     private Auteur auteur;
 
 
-    // Constructeurs
     public Livre() {}
 
     public Livre(String titre, String genre, int anneePublication, Auteur auteur) {
@@ -38,7 +37,6 @@ public class Livre {
         this.auteur = auteur;
     }
 
-    // Getters et setters
 
     public Long getId() {
         return id;
