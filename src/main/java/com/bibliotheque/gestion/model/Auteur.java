@@ -27,7 +27,6 @@ public class Auteur {
     @JsonManagedReference
     private List<Livre> livres;
 
-    // Constructeurs
     public Auteur() {}
 
     public Auteur(String nom, String prenom) {
@@ -35,7 +34,7 @@ public class Auteur {
         this.prenom = prenom;
     }
 
-    // Getters et setters
+
 
     public Long getId() {
         return id;
